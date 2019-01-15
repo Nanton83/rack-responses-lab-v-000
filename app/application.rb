@@ -1,16 +1,14 @@
-require 'pry'
+
 class Application
 
   def call(env)
     resp = Rack::Response.new
 
     x = DateTime.now
-binding.pry
-    if  "You Win"
-    else
-      resp.write "You Lose"
-    end
 
+    if  
+    else
+    end
     resp.finish
   end
 
