@@ -6,12 +6,12 @@ class Application
     current_time = Time.now
 
     if
-      current_time.hour.between?(0..12)
+      current_time.hour.between?(0,12)
 
       resp.write "Good Morning!"
 
     elsif
-      current_time.hour.between?(12..8)
+      current_time.hour.between?(12,8)
 
       resp.write "Good Afternoon!"
 
