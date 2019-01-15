@@ -11,12 +11,12 @@ class Application
       resp.write "Good Morning!"
 
     elsif
-      current_time.hour.between?(12,8)
+      current_time.hour.between?(12,17)
 
       resp.write "Good Afternoon!"
 
     else
-      resp.write "Good Evening!" 
+      resp.write "Good Evening!"
     end
 
     resp.finish
