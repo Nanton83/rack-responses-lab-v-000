@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
 
     x = DateTime.now
-
+binding.pry
     if  "You Win"
     else
       resp.write "You Lose"
